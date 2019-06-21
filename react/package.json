@@ -8,27 +8,39 @@
   },
   "author": "Club OS",
   "dependencies": {
-    "prop-types": "^15.6.2",
-    "react": "^16.4.2",
-    "react-dom": "^16.4.2"
+    "@fortawesome/fontawesome-svg-core": "^1.2.19",
+    "@fortawesome/free-solid-svg-icons": "^5.9.0",
+    "@fortawesome/react-fontawesome": "^0.1.4",
+    "axios": "^0.19.0",
+    "dayjs": "^1.8.14",
+    "prop-types": "^15.7.2",
+    "react": "^16.8.6",
+    "react-dom": "^16.8.6"
   },
   "devDependencies": {
-    "babel-cli": "^6.26.0",
-    "babel-loader": "^7.1.5",
-    "babel-preset-env": "^1.7.0",
-    "babel-preset-react": "^6.24.1",
-    "react-hot-loader": "^4.3.4",
-    "webpack": "^4.16.5",
-    "webpack-cli": "^3.1.0",
-    "webpack-dev-server": "^3.1.5"
+    "@babel/core": "^7.4.5",
+    "@babel/plugin-proposal-object-rest-spread": "^7.4.4",
+    "@babel/preset-env": "^7.4.5",
+    "@babel/preset-react": "^7.0.0",
+    "babel-loader": "^8.0.6",
+    "css-loader": "^3.0.0",
+    "jest": "^24.8.0",
+    "postcss-loader": "^3.0.0",
+    "react-hot-loader": "^4.11.0",
+    "style-loader": "^0.23.1",
+    "tailwindcss": "^1.0.4",
+    "webpack": "^4.34.0",
+    "webpack-cli": "^3.3.4",
+    "webpack-dev-server": "^3.7.1"
   },
   "babel": {
     "presets": [
-      "env",
-      "react"
+      "@babel/env",
+      "@babel/preset-react"
     ],
     "plugins": [
-      "react-hot-loader/babel"
+      "react-hot-loader/babel",
+      "@babel/plugin-proposal-object-rest-spread"
     ]
   }
 }
